@@ -17,7 +17,7 @@ public class SandboxMain {
 		//RegEx Sandbox
 		String data = "" 
 				+ "User Name	: "
-				+ "Dylan Alvandi</br>"
+				+ "Geraldus Dylan Alvandi</br>"
 				+ ",Password	: "
 				+ "123abcDEF</br>";
 		String data2 = "Dear	 first_name_t010_13 last_name_t010_13,<br/><br/>A new user account has been created for you on the LibreClinica system.  Your login information follows:\r\n"
