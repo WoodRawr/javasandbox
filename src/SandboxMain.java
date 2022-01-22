@@ -47,6 +47,8 @@ public class SandboxMain {
 		if(username == null || password == null) {
 			throw new Exception("Could not find username and/or password in text");
 		}
+		System.out.printf(newLine);
+		System.out.printf("Conflict");
 		//
 	}
 }
