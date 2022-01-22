@@ -10,7 +10,7 @@ public class SandboxMain {
 				+ "————————————————————————————————————————————"
 				+ "————————————————————————————————————————————"
 				+ "————————————————————————————————————————————"
-				+ "————————————————";
+				+ "————————————————\n";
 		System.out.println("Hello Sandbox!");
 		System.out.println(newLine);
 		
@@ -50,5 +50,9 @@ public class SandboxMain {
 		System.out.printf(newLine);
 		System.out.println("\nConflict");
 		//
+		System.out.printf(newLine);
+		Primary primary = new Primary();
+		primary.greet();
+		
 	}
 }
