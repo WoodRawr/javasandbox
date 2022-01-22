@@ -10,7 +10,7 @@ public class SandboxMain {
 				+ "————————————————————————————————————————————"
 				+ "————————————————————————————————————————————"
 				+ "————————————————————————————————————————————"
-				+ "————————————————";
+				+ "————————————————\n";
 		System.out.println("Hello Sandbox!");
 		System.out.println(newLine);
 		
@@ -48,5 +48,9 @@ public class SandboxMain {
 			throw new Exception("Could not find username and/or password in text");
 		}
 		//
+		System.out.printf(newLine);
+		Primary primary = new Primary();
+		primary.greet();
+		
 	}
 }
